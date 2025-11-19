@@ -1,0 +1,102 @@
+(footprint "battery"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "92850417-f3f9-4156-8de8-c6652d7f52ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c001999-2353-4f89-bacc-62cd6f6f065b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb3033e-ab07-4b75-b979-f81c22219700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a9b2474-c719-45f3-b486-4ac1acd3fd48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_text user "BAT-"
+		(at -2 -1 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "281b1c44-6147-42b7-b049-10388e732c77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT+\n"
+		(at 0.5 -1 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bb94c5fc-057b-46b7-a65b-fba5393ef88d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 1.32 -2.5 270)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "B.SilkS")
+		(remove_unused_layers no)
+		(uuid "43d41cc1-542a-47f0-91f2-afa1ae4f7e70")
+	)
+	(pad "2" thru_hole oval
+		(at -1.22 -2.5 270)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d85f7760-4bc7-4100-809a-b5f66daf986d")
+	)
+	(embedded_fonts no)
+)
